@@ -23,7 +23,7 @@ const Home = () => {
         {/* subttitle */}
       <motion.p variants={fadeIn('down',0.3)} initial="hidden"
         animate="show" exit="hidden" className=''>In a world where innovation drives progress and creativity fuels inspiration,<br/>
-         I am on a relentless journey to transform ideas into tangible digital experiences.<br/> My passion for design and technology is more than a career—it's a calling..  
+         I am on a relentless journey to transform ideas into tangible digital experiences.<br/> My passion for design and technology is more than a career—it&apos;s a calling..  
         </motion.p>
         {/* btn */}
         

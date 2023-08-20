@@ -37,7 +37,7 @@ const Services = () => {
             initial='hidden'
             animate="show"
             exit="hidden" className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-           Whether you're starting from scratch or looking to refresh your existing website, we're here to transform your digital presence. Let's work together to craft a website that not only wows but also drives growth for your business.
+           Whether you&apos;re starting from scratch or looking to refresh your existing website, we&apos;re here to transform your digital presence. Let&apos;s work together to craft a website that not only wows but also drives growth for your business.
           </motion.p>
           </div>
       {/* slider */}

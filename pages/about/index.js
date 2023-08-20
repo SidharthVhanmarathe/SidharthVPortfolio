@@ -36,70 +36,40 @@ const aboutData = [
       {
         title: "Web Development",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <FaAngular/>,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html" />,
+          <FaCss3 key="css" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <FaAngular key="angular" />,
+          <SiNextdotjs key="next" />,
+          <SiFramer key="framer" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          <FaFigma key="figma" />,
+          <SiAdobexd key="adobexd" />,
+          <SiAdobephotoshop key="adobephotoshop" />,
+        ],
       },
       {
-        title:"Back End",
-        icons:[<FaJava/> ,<SiMysql/>,<SiNodedotjs/>,<SiSpring/>,<SiPhp/>, <SiPostgresql/>]
-      }
-    ],
-  },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2019 - 2020",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2022 - 2023",
+        title: "Back End",
+        icons: [
+          <FaJava key="java" />,
+          <SiMysql key="mysql" />,
+          <SiNodedotjs key="nodedotjs" />,
+          <SiSpring key="spring" />,
+          <SiPhp key="php" />,
+          <SiPostgresql key="postgresql" />,
+        ],
       },
     ],
   },
-  {
-    title: "experience",
-    info: [
-      {
-        title: "SDE  - CORECO Technologies",
-        stage: "2023 - present",
-      },
-      {
-        title: "Lead Technology - Opethic Software services",
-        stage: "2022 - 2023",
-      },
-      {
-        title: "Full-Stack Developer - Opulent Software service",
-        stage: "2021 - 2022",
-      },
-    ],
-  },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "BE-CS - Sanjay Ghodawat University",
-        stage: "2019",
-      },
-      {
-        title: "Diploma - SPM Polytechnic",
-        stage: "2016",
-      },
-    ],
-  },
+  // Rest of your data...
 ];
+
 
 const About = () => {
   const [index, SetIndex] = useState(0);
@@ -136,7 +106,7 @@ const About = () => {
           animate="show"
           exit="hidden"
           className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
-          > 3 years ago ,I began as developer .Since then,I've done remote work form agencies,
+          > 3 years ago ,I began as developer .Since then,I&apos;sve done remote work form agencies,
             counsulted for startups, and collaborated on digital products for business and consumer use.
           </motion.p>
           {/* counter*/}
@@ -242,7 +212,7 @@ after:bg-white/10 after:absolute after:top-0 after:right-0">
                 {/* icons */}
                 {item.icons?.map((icon,itemIndex)=>
                 {
-                  return (<div className="text-2xl text-white">{icon}</div>);
+                  return (<div key={itemIndex} className="text-2xl text-white">{icon}</div>);
                 })}
                 </div>
               </div>

@@ -30,7 +30,7 @@ const Work = () => {
             initial='hidden'
             animate="show"
             exit="hidden" className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-           I'm passionate about creating stunning and effective web experiences that leave a lasting impression. Our web design services go beyond aesthetics; 
+           I&apos;m passionate about creating stunning and effective web experiences that leave a lasting impression. Our web design services go beyond aesthetics; 
           </motion.p>
           </div>
       {/* slider */}
