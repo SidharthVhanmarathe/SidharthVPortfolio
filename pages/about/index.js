@@ -5,7 +5,7 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaWordpress,
+  // FaWordpress,
   FaFigma,
   FaAngular,
   FaJava,
@@ -43,7 +43,7 @@ const aboutData = [
           <FaAngular key="angular" />,
           <SiNextdotjs key="next" />,
           <SiFramer key="framer" />,
-          <FaWordpress key="wordpress" />,
+          // <FaWordpress key="wordpress" />,
         ],
       },
       {
@@ -216,7 +216,7 @@ after:bg-white/10 after:absolute after:top-0 after:right-0">
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="flex flex-col w-full xl:max-w-[40%] h-[300px]">
+        className="flex flex-col w-full xl:max-w-[45%] h-[300px]">
         <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
           {aboutData.map((item, itemIndex) => {
             return (
