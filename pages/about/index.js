@@ -67,6 +67,49 @@ const aboutData = [
       },
     ],
   },
+  {
+    title: "awards",
+    info: [
+      {
+        title: "Webby Awards - Honoree",
+        stage: "2019 - 2020",
+      },
+      {
+        title: "Adobe Design Achievement Awards - Finalist",
+        stage: "2022 - 2023",
+      },
+    ],
+  },
+  {
+    title: "experience",
+    info: [
+      {
+        title: "SDE  - CORECO Technologies",
+        stage: "2023 - present",
+      },
+      {
+        title: "Lead Technology - Opethic Software services",
+        stage: "2022 - 2023",
+      },
+      {
+        title: "Full-Stack Developer - Opulent Software service",
+        stage: "2021 - 2022",
+      },
+    ],
+  },
+  {
+    title: "credentials",
+    info: [
+      {
+        title: "BE-CS - Sanjay Ghodawat University",
+        stage: "2019",
+      },
+      {
+        title: "Diploma - SPM Polytechnic",
+        stage: "2016",
+      },
+    ],
+  },
   // Rest of your data...
 ];
 
