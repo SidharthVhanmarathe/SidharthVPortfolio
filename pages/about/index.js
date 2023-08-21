@@ -22,7 +22,7 @@ import {
   SiSpring,
   SiPhp,
 } from "react-icons/si";
-import Avatar from "../../components/Avatar";
+// import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
@@ -128,7 +128,7 @@ const About = () => {
         exit="hidden"
         className="hidden xl:flex absolute bottom-0 -left-[370px]"
       >
-        <Avatar />
+        {/* <Avatar /> */}
       </motion.div>
       <div className="container mx-auto h-full
        flex flex-col items-center xl:flex-row gap-x-6">
@@ -216,7 +216,7 @@ after:bg-white/10 after:absolute after:top-0 after:right-0">
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="flex flex-col w-full xl:max-w-[48%] h-[400px]">
+        className="flex flex-col w-full xl:max-w-[40%] h-[300px]">
         <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
           {aboutData.map((item, itemIndex) => {
             return (

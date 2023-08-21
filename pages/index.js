@@ -1,16 +1,32 @@
 // next image
 import ParticleContainer from '../components/ParticlesContainer';
 import ProjectBtn from '../components/ProjectsBtn';
+import { Helmet } from 'react-helmet';
 
-import Avatar from '../components/Avatar';
+// import Avatar from '../components/Avatar';
+import Link from 'next/link';
 
 // framer motion
 import {fadeIn} from '../variants';
 import {motion} from 'framer-motion';
+import Image from 'next/image';
+
 
 
 const Home = () => {
   return (<div className='bg-primary/60 h-full'>
+     {/* <Helmet> */}
+        {/* <link rel="icon" href="/t-avt-2.png" /> */}
+        {/* <Link href={'/'} >
+       <Image 
+          src={'/finallogo.png'}
+        width={50} 
+        height={18} 
+        alt=''
+        priority={true}/>
+        </Link> */}
+
+      {/* </Helmet> */}
     {/* text */}
     <div className='w-full h-full bg-gradient-to-r
      from-primary/10 via-black/30 to-black/10'>
