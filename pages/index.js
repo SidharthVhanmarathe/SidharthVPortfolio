@@ -1,7 +1,7 @@
 // next image
 import ParticleContainer from '../components/ParticlesContainer';
 import ProjectBtn from '../components/ProjectsBtn';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 // import Avatar from '../components/Avatar';
 import Link from 'next/link';
