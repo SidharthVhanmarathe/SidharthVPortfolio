@@ -6,7 +6,7 @@ import {
   RiInstagramLine,
   RiFacebookLine,
   RiBehanceLine,
-  RiPinterestLine,
+  // RiPinterestLine,
   RiLinkedinLine,
 } from 'react-icons/ri';
 const Socials = () => {
@@ -26,9 +26,9 @@ const Socials = () => {
     <Link href={'https://www.behance.net/siddharvhanmar'} className='hover:text-accent transition-all duration-300'>
     <RiBehanceLine/>
     </Link>
-    <Link href={'https://in.pinterest.com/siddharthvhanmarathe/'} className='hover:text-accent transition-all duration-300'>
+    {/* <Link href={'https://in.pinterest.com/siddharthvhanmarathe/'} className='hover:text-accent transition-all duration-300'>
     <RiPinterestLine/>
-    </Link>
+    </Link> */}
    
   
   </div>;
